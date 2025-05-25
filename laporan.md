@@ -88,29 +88,91 @@ Dua file utama yang digunakan:
 
 ### Exploratory Data Analysis (EDA) & Insight
 
-- **Distribusi Rating:**
+A. **Distribusi Rating:**
 
    | ![image](https://github.com/user-attachments/assets/256ac2ef-f84e-4629-bbd7-e5c952deb0e2) | 
    |:--:| 
    | *Distribusi Rating Film* |
 
-  Rating 4.0 mendominasi (28.75%), diikuti rating 3.0 (20.06%) dan 5.0 (15.09%). Rating rendah (<2.0) sangat jarang diberikan.
-  
-- **Distribusi Genre:**
+Insight:
+
+**1. Rating 4.0 Mendominasi (28.75%)**
+
+* Ini menunjukkan bahwa sebagian besar pengguna **cenderung memberi nilai tinggi tapi tidak maksimal**.
+* Kemungkinan besar pengguna bersikap realistis, tidak langsung kasih 5 kecuali filmnya sangat berkesan.
+
+**2. Rating 3.0 Juga Cukup Populer (20.06%)**
+
+* Rating ini bisa dianggap sebagai **rating “netral” atau cukup”**.
+* Ini menandakan banyak pengguna merasa film yang mereka tonton tidak terlalu bagus, tapi juga tidak jelek.
+
+**3. Rating 5.0 Masih Tinggi (15.09%)**
+
+* Cukup banyak pengguna yang memberi **rating sempurna**.
+* Ini bisa digunakan sebagai sinyal bahwa film tersebut benar-benar disukai, meskipun tetap perlu diperiksa jumlah user-nya.
+
+**4. Rating Rendah Jarang Diberikan**
+
+* Rating 0.5, 1.0, dan 1.5 masing-masing **kurang dari 3.5%**.
+* Ini mengindikasikan bahwa pengguna jarang memberi nilai sangat rendah.
+* Bisa jadi karena:
+
+  * Mereka jarang menonton film yang jelek.
+  * Atau memang enggan memberi rating rendah (bias persepsi pengguna).
+
+
+B. **Distribusi Genre dalam Film:**
 
    | ![image](https://github.com/user-attachments/assets/b1cf6b5d-a799-456a-a9c3-d5991e402759) | 
    |:--:| 
    | *Distribusi Genre Film* |
 
-  Genre terbanyak adalah Drama, Comedy, Thriller, Romance, dan Action.
-  
-- **Analisis Rating Film:**
+Genre adalah fitur penting dalam content-based filtering. Adapun insight dari output di atas dapat dilihat sebagai berikut:
+
+1. **Dominasi Genre Drama**
+
+   * Dengan **20.265 film**, *Drama* menjadi genre paling umum dalam dataset.
+   * Ini wajar karena drama adalah genre yang fleksibel dan sering digabungkan dengan genre lain seperti romance, crime, atau thriller.
+
+2. **Popularitas Genre Komedi**
+
+   * *Comedy* berada di posisi kedua dengan **13.182 film**.
+   * Genre ini biasanya memiliki audience yang luas dan relatif mudah diproduksi dengan variasi yang banyak, baik standalone maupun campuran.
+
+3. **Thriller, Romance, dan Action Juga Signifikan**
+
+   * Ketiganya masing-masing berada di angka **7.624**, **6.735**, dan **6.596**.
+   * *Thriller* dan *Action* sering diminati karena ketegangan dan visual yang menarik, sedangkan *Romance* banyak diminati karena keterkaitan emosional.
+
+4. **Genre-Genre Khusus Mulai dari Posisi 6 ke Bawah**
+
+   * *Horror*, *Crime*, dan *Documentary* berada di posisi menengah ke bawah tapi tetap cukup banyak.
+   * *Science Fiction* meskipun termasuk genre populer secara global, dalam dataset ini hanya muncul **3.049 kali**, menunjukkan genre ini tidak sebanyak drama atau komedi secara keseluruhan.
+
+
+C. **Analisis Rating Film:**
 
    | ![image](https://github.com/user-attachments/assets/5432b643-4da5-4b8f-8a09-51f7ebd55a80) | 
    |:--:| 
    | *Distribusi Genre Film* |
 
-  Film dengan jumlah vote terbanyak belum tentu memiliki rating tertinggi. Terdapat perbedaan antara rating pengguna dan rating TMDB/IMDB pada beberapa film.
+Insight:
+
+1. **Film dengan Popularitas Tertinggi (jumlah vote terbanyak)**
+
+   * **Terminator 3: Rise of the Machines** menempati posisi teratas dengan **324 vote** dari pengguna.
+   * Menariknya, meskipun film ini tidak mendapat rating tinggi dari TMDB (5.9), pengguna justru memberikan rating yang **relatif tinggi (4.26)**.
+
+2. **Perbedaan Rating Pengguna vs TMDB**
+
+   * Ada beberapa film dengan **gap signifikan** antara rating pengguna dan rating TMDB/IMDB:
+
+     * **The Passion of Joan of Arc** → Rating pengguna: **3.48**, tapi rating TMDB: **8.2** → menandakan film ini lebih diapresiasi secara sinematik (kritikus), tapi kurang disukai oleh pengguna biasa.
+     * **Three Colors: Red** juga mendapat rating tinggi di TMDB (**7.8**), tapi rating pengguna hanya **3.95**.
+
+3. **Konsistensi Rating**
+
+   * **Solaris** punya rating tinggi dari TMDB (**7.7**) dan pengguna juga cukup tinggi (**4.13**), menunjukkan konsistensi penerimaan positif dari dua sumber.
 
 ## Data Preparation
 
