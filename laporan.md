@@ -44,7 +44,7 @@ Dua file utama yang digunakan:
 
 - **movies_metadata.csv**: 45.466 baris, 24 kolom (film)
 - **ratings_small.csv**: 100.003 baris, 4 kolom (rating)
-- **data duplikat, dan missing values**: Kedua dataset ini masih memiliki data duplikat dan missing values. Ini akan diperlihatkan pencariannya dan penanganannya di laporan ini.
+- **data duplikat, dan missing values**: Kedua dataset ini masih memiliki data duplikat dan missing values. Ini akan diperlihatkan pencariannya dan penanganannya pada tahap Data Preparation di laporan ini.
 
 ### Variabel pada Dataset
 
