@@ -152,6 +152,19 @@ Genre adalah fitur penting dalam content-based filtering. Adapun insight dari ou
 
 C. **Analisis Rating Film:**
 
+| Title                           | user_rating_mean | tmdb_imdb_rating | count_user_voted |
+|--------------------------------|------------------|------------------|------------------|
+| Terminator 3: Rise of the Machines | 4.256173         | 5.9              | 324              |
+| The Million Dollar Hotel       | 4.487138         | 5.9              | 311              |
+| Solaris                        | 4.134426         | 7.7              | 305              |
+| The 39 Steps                   | 4.221649         | 7.4              | 291              |
+| Monsoon Wedding                | 3.706204         | 6.8              | 274              |
+| Once Were Warriors             | 4.303279         | 7.6              | 244              |
+| Three Colors: Red              | 3.945175         | 7.8              | 228              |
+| Men in Black II                | 4.256696         | 6.1              | 224              |
+| The Passion of Joan of Arc     | 3.483945         | 8.2              | 218              |
+| Silent Hill                    | 3.674419         | 6.3              | 215              |
+
    | ![image](https://github.com/user-attachments/assets/5432b643-4da5-4b8f-8a09-51f7ebd55a80) | 
    |:--:| 
    | *Distribusi Genre Film* |
