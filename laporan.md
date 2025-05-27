@@ -90,8 +90,7 @@ Dua file utama yang digunakan:
 
 A. **Distribusi Rating:**
 
-
-   | ![Screenshot (144)](https://github-production-user-asset-6210df.s3.amazonaws.com/26517220/447940282-c92c518b-06f1-49d1-bfd7-4db2fe3f25ed.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250527%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250527T132203Z&X-Amz-Expires=300&X-Amz-Signature=a66bc9a94c7d12184cb3ed2f6065282561d37cac8e16a1ff9c41059b431d9ae1&X-Amz-SignedHeaders=host) | 
+   | ![Screenshot (144)](https://github.com/drewjd27/Sistem-Rekomendasi-Film-main/blob/main/distribusi%20rating%20data.png?raw=true) | 
    |:--:| 
    | *Distribusi Rating Film* |
 
@@ -124,7 +123,7 @@ Insight:
 
 B. **Distribusi Genre dalam Film:**
 
-   | ![image](https://github.com/user-attachments/assets/b1cf6b5d-a799-456a-a9c3-d5991e402759) | 
+   | ![image](https://github.com/drewjd27/Sistem-Rekomendasi-Film-main/blob/main/top%2010%20genre%20film%20terbanyak.png?raw=true) | 
    |:--:| 
    | *Distribusi Genre Film* |
 
@@ -166,9 +165,9 @@ C. **Analisis Rating Film:**
 | The Passion of Joan of Arc     | 3.483945         | 8.2              | 218              |
 | Silent Hill                    | 3.674419         | 6.3              | 215              |
 
-   | ![image](https://github.com/user-attachments/assets/5432b643-4da5-4b8f-8a09-51f7ebd55a80) | 
+   | ![image](https://github.com/drewjd27/Sistem-Rekomendasi-Film-main/blob/main/top%2010%20film%20berdasarkan%20jumlah%20vote%20pengguna.png?raw=true) | 
    |:--:| 
-   | *Distribusi Genre Film* |
+   | *Top 10 Film Berdasarkan Jumlah Vote Pengguna* |
 
 Insight:
 
@@ -303,7 +302,7 @@ title_based_recom = film_recommendations("The Matrix", similarity_data=cos_sim, 
 
 #### a. Proses
 
-  | ![Screenshot (144)](https://github.com/user-attachments/assets/1e1932ac-bc84-4610-afb8-3de902aa2a05) | 
+  | ![Screenshot (144)](https://github.com/drewjd27/Sistem-Rekomendasi-Film-main/blob/main/arsitektur%20model%20deeplearning.png?raw=true) | 
   |:--:| 
   | *Arsitektur Model Deep Learning untuk Collaborative Filtering* |
 
@@ -388,9 +387,9 @@ Top 10 Film Rekomendasi untuk User : 1
   - Recall = (Jumlah rekomendasi relevan) / (Total item relevan di data)
 - **Hasil:**
 
-  | ![Screenshot (144)](https://github.com/user-attachments/assets/5b0543b0-52fe-4e34-b978-1a3cab167c70) | 
+  | ![Screenshot (144)](https://github.com/drewjd27/Sistem-Rekomendasi-Film-main/blob/main/Evaluasi%20Content-Based%20Filtering%20Menggunakan%20Metode%20Precision%20dan%20Recall.png?raw=true) | 
   |:--:| 
-  | *Evaluasi MAE dan RMSE pada Test Dataset* |
+  | *Evaluasi Content-Based Filtering Menggunakan Metode Precision dan Recall* |
 
   Precision: 100% (semua rekomendasi relevan dengan preferensi genre)  
   Recall: 100% (semua film relevan berhasil direkomendasikan)
@@ -416,9 +415,9 @@ Evaluasi MAE pada test dataset: 0.20269782841205597
 Evaluasi RMSE pada test dataset: 0.2480652779340744
 ```
 
-  | ![Screenshot (144)](https://github.com/user-attachments/assets/fada832e-90a9-4960-bbaa-761c46c9c37c) | 
+  | ![Screenshot (144)](https://github.com/drewjd27/Sistem-Rekomendasi-Film-main/blob/main/Evaluasi%20MAE%20dan%20RMSE%20pada%20Test%20Dataset.jpg?raw=true) | 
   |:--:| 
-  | *Evaluasi MAE dan RMSE pada Test Dataset* |
+  | *Evaluasi Model Collaborative Filtering dengan Metode MAE dan RMSE pada Test Dataset* |
  
   - MAE dan RMSE pada test dataset menunjukkan model cukup baik dalam memprediksi rating pengguna.
   - Grafik MAE dan RMSE selama training menunjukkan model stabil dan tidak overfitting.
