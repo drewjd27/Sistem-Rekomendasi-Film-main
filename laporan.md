@@ -90,7 +90,8 @@ Dua file utama yang digunakan:
 
 A. **Distribusi Rating:**
 
-   | ![image](https://github.com/user-attachments/assets/256ac2ef-f84e-4629-bbd7-e5c952deb0e2) | 
+
+   | ![Screenshot (144)](https://github-production-user-asset-6210df.s3.amazonaws.com/26517220/447940282-c92c518b-06f1-49d1-bfd7-4db2fe3f25ed.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250527%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250527T132203Z&X-Amz-Expires=300&X-Amz-Signature=a66bc9a94c7d12184cb3ed2f6065282561d37cac8e16a1ff9c41059b431d9ae1&X-Amz-SignedHeaders=host) | 
    |:--:| 
    | *Distribusi Rating Film* |
 
